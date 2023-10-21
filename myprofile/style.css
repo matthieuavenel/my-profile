@@ -1,0 +1,94 @@
+/* Colors and fonts*/
+body {
+	background-color: rgb(240, 240, 240) ;
+	color:rgb(180, 180, 180) ;
+	font-family: sans-serif;
+	font-weight: 200;
+
+
+
+}
+h1, h2, h3 {
+	font-family: sans-serif;
+}
+h1 {
+	color: black;
+	font-family: serif;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+h2 {
+	color: rgb(100,170,140);
+	font-size: 30px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+
+a {
+	font-family: sans-serif;
+	text-decoration: underline;
+	color : rgb(80 140 135);
+	font-weight: bold;
+
+}
+
+a:hover {
+	color: darkseagreen;
+}
+	
+
+/* Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle {
+border-radius:50%;
+}
+
+
+.btn-green {
+background-color: green;
+color: white:
+padding: 15px 20px:
+border-radius: 7px;
+}
+
+.btn-green: hover {
+background-color: black:
+color: white;
+}
+
+
+.List-inline {
+List-style: none;
+padding-left: 0px;
+}
+
+
+.list-inline Li {
+display: inline;
+padding: 20px;
+}
+
+.list-inline i {
+font-size: 50px;
+color: rgb(100 155 175) ;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
